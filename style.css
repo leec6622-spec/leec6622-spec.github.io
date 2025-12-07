@@ -1,0 +1,52 @@
+
+.body{
+    width: 900px;
+    height: 600px;
+}
+
+.flip-container{
+    width: 800px;
+    height: 500px;
+    display:flex;
+    justify-items:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flip-container:hover > .temple{
+    cursor:pointer;
+    transform:rotateY(180deg);
+    transition:transform 1500ms
+}
+.temple{
+    height:100%;
+    width:100%;
+    position:relative;
+    transform-style:preserve-3d
+}
+.temple_front,
+.temple_back{
+    position:absolute;
+    backface-visibility: hidden;
+}
+.temple_back{
+    transform:rotateY(180deg)
+
+}
+
+.before_button{
+    width: 50px;
+    margin-left: 600px;
+
+}
+
+.next_button{
+    width: 50px;
+    margin-left: 310px;
+
+}
+
+.instruction{
+    color:darkblue;
+    font-size: 40px;
+    text-align: center;
+}
