@@ -44,18 +44,22 @@ h1.p1 {
 
 .before_button{
     width: 50px;
+    padding-left: 30%;
     position: relative;
-    margin-left: 400px;
 }
-
 .next_button{
     width: 50px;
-    margin-left: 310px;
-
+    padding-left: 30%;
+    position: relative;
 }
 
 .instruction{
     color:darkblue;
     font-size: 40px;
     text-align: center;
+}
+ .alien{
+    width:100px;
+    height:px;
+    position: relative;
 }
