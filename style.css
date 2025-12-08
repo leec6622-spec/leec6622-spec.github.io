@@ -44,8 +44,8 @@ h1.p1 {
 
 .before_button{
     width: 50px;
-    margin-left: 210px;
-
+    position: relative;
+    margin-left: 400px;
 }
 
 .next_button{
