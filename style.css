@@ -60,6 +60,13 @@ h1.p1 {
 }
  .alien{
     width:100px;
-    height:px;
     position: relative;
+    display: flex;
+    float:left
+}
+
+.aliensays{
+    color: #7fad40;
+    position:relative;
+    padding-left: 8%;
 }
