@@ -3,15 +3,6 @@
     height: 600px;
 }
 
-h1.p1 {
-	font-family: "Rascal";
-	font-size: 40px;
-}
-
-.p2 {
-	font-family: "mieszkanie9";
-}
-
 .flip-container{
     width: 800px;
     height: 500px;
@@ -19,17 +10,19 @@ h1.p1 {
     justify-items:center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    padding-top:8%;
+    padding-left:5%;
 }
-.flip-container:hover > .temple{
+.flip-container:hover > .image{
     cursor:pointer;
     transform:rotateY(180deg);
     transition:transform 1500ms
 }
-.temple{
+.image{
     height:100%;
     width:100%;
     position:relative;
+    top:-50px;
     transform-style:preserve-3d
 }
 .temple_front,
@@ -37,6 +30,7 @@ h1.p1 {
     position:absolute;
     backface-visibility: hidden;
 }
+
 .temple_back{
     transform:rotateY(180deg)
 
@@ -46,27 +40,38 @@ h1.p1 {
     width: 50px;
     padding-left: 30%;
     position: relative;
+    top: -90px;
+    
 }
 .next_button{
     width: 50px;
     padding-left: 30%;
     position: relative;
+    top: -90px;
 }
 
-.instruction{
-    color:darkblue;
-    font-size: 40px;
-    text-align: center;
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1;}
 }
+.play{
+    animation: fadein .4s ease-in;
+}
+
  .alien{
-    width:100px;
+    width:70px;
     position: relative;
     display: flex;
-    float:left
+    float:right;
+    top:-15px
+
 }
 
 .aliensays{
     color: #7fad40;
     position:relative;
-    padding-left: 8%;
+    float:right;
+    font-size:15px;
+    font-family: "mieszkanie9";
+    right:10px;
 }

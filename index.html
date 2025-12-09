@@ -4,17 +4,28 @@
     <meta charset="utf-8">
     <title> Jyn's Moving Postcards</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <script src="transition_sound.js"></script>
 
+</head>
 <body>
-    <h1 class="p1">
-		Video Postcards from Japan
+    <h1 style="font-family:Rascal">
+	 Video Postcards from Japan
+
+     <input
+    type="image"
+    class="alien"
+    src="green.JPG">
+
+    <div class="aliensays">
+        <p class="p2"><i> ♫click green thing for music♫</i></p>
+    </div>
 	</h1>
 
+    
 	<div class="flip-container">  
-        <div class="temple">
+        <div class="image">
             <div class="temple_front">
-                <img src="videos/1.gif">
+                <img id="img" img src="videos/1.gif" alt="">
             </div>
             <div class="temple_back">
                 <img src="back_writing/1_back.png">
@@ -22,29 +33,19 @@
         </div>
     </div>
 
-    <input
-    type="image"
-    class="before_button"
-    src="before-button.png"/>
+    <div class="controls"></div>
+        <input
+        type="image"
+        class="before_button"
+        src="before-button.png";
+        onclick="Goback()">
 
-    <input
-    type="image"
-    class="next_button"
-    src="next-button.png"/>
+        <input
+        type="image"
+        class="next_button"
+        src="next-button.png";
+        onclick="Gonext()">
 
-    <div class="instruction">
-    <p class="p2">
-    Hover on the postcard to see the back! 
-    </p>
-    </div>
 
-    <input
-    type="image"
-    class="alien"
-    src="green.JPG">
-
-    <div class="aliensays">
-        <p class="p2"> Click me for music...</p>
-    </div>
  </body> 
 </html>
