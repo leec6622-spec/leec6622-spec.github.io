@@ -13,7 +13,7 @@
     padding-top:8%;
     padding-left:5%;
 }
-.flip-container:hover > .image{
+.image:hover{
     cursor:pointer;
     transform:rotateY(180deg);
     transition:transform 1500ms
