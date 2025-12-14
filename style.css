@@ -1,11 +1,11 @@
 .body{
     width: 900px;
-    height: 600px;
+    height: 700px;
 }
 
 .flip-container{
     width: 800px;
-    height: 500px;
+    height: 600px;
     display:flex;
     justify-items:center;
     margin-left: auto;
@@ -23,7 +23,8 @@
     width:100%;
     position:relative;
     top:-50px;
-    transform-style:preserve-3d
+    transform-style:preserve-3d;
+    margin-right: auto;
 }
 .temple_front,
 .temple_back{
@@ -40,14 +41,14 @@
     width: 50px;
     padding-left: 30%;
     position: relative;
-    top: -90px;
+    top: -150px;
     
 }
 .next_button{
     width: 50px;
     padding-left: 30%;
     position: relative;
-    top: -90px;
+    top: -150px;
 }
 
 @keyframes fadeIn {
@@ -59,12 +60,12 @@
 }
 
  .alien{
-    width:70px;
+    width:100px;
     position: relative;
     display: flex;
     float:right;
-    top:-15px
-
+    padding-right: 60px;
+    top:-20px
 }
 
 .aliensays{

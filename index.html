@@ -8,16 +8,27 @@
 
 </head>
 <body>
-    <h1 style="font-family:Rascal">
-	 Video Postcards from Japan
+    <h1 style="font-family:Rascal; padding: top 20px; font-size: 50px;">
+        Video Postcards from Japan
 
+     <!---GREEN DUDE BUTTON-->
      <input
     type="image"
     class="alien"
-    src="green.JPG">
+    src="green.JPG";
+    onclick="clickMusic()">
+
+    <audio id="audio" src="bgsong.mp3" autostart="false"></audio>
+
+   <script>
+    function clickMusic(){
+        var sound = document.getElementById('audio')
+        sound.play(); 
+    }
+   </script>
 
     <div class="aliensays">
-        <p class="p2"><i> ♫</i></p>
+        <p class="p2"><i>♪ click me for music ♪</i></p>
     </div>
 	</h1>
 
