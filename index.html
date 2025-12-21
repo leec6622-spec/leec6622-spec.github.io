@@ -23,8 +23,9 @@
    <script>
     function clickMusic(){
         var sound = document.getElementById('audio')
-        sound.play(); 
-    }
+        if(audio.paused){audio.play();}
+        else{audio.pause();}
+          }
    </script>
 
     <div class="aliensays">
