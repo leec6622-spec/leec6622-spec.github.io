@@ -9,7 +9,8 @@
 
 </head>
 <body>
-    <h1 style="font-family:Rascal; padding: top 20px; font-size: 40px;">
+
+    <h1 style="font-family:Rascal; padding: top 20px; font-size: 40px;padding-left:3%;">
          Postcards from Japan
 
      <!---MUSIC CONTROL-->
@@ -38,7 +39,8 @@
   <div class="flip-container">
     <div class="image">
       <div class="temple_front">
-        <img id="img" src="videos/1.gif" alt="Postcard front">
+        <video id="vid" src="videos/1.webm" type="video/webm" alt="Postcard front">
+        </video>
       </div>
 
       <div class="temple_back">
@@ -67,7 +69,7 @@
     var num = 1;
     var total = 4; // total number of postcards
 
-    var element = document.getElementById("img");
+    var element = document.getElementById("vid");
     var backElement = document.getElementById("imgBack");
 
     function Goback() {
