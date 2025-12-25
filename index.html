@@ -44,7 +44,7 @@
       </div>
 
       <div class="temple_back">
-        <img id="imgBack" src="back_writing/1_back.png" alt="Postcard back">
+        <img id="imgBack" src="back_writing/1.png" alt="Postcard back">
       </div>
     </div>
   </div>
@@ -93,7 +93,7 @@
     function PlayAnimation() {
       // update front and back images
       element.src = "videos/" + num + ".gif";
-      backElement.src = "back_writing/" + num + "_back.png";
+      backElement.src = "back_writing/" + num + ".png";
 
       // restart GIF animation
       element.classList.remove("play");
@@ -101,6 +101,7 @@
       element.classList.add("play");
     }
   </script>
+
 
 </body>
 </html>
