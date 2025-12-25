@@ -82,7 +82,7 @@
 
     top: -130px;
     float: right;
-    right: 100px;
+    padding-right: 70px;
     position: relative;
 }
 .japan_talk{
@@ -90,6 +90,6 @@
  top: -65px;
  font-size: 16px;
  position: relative;
- left: 45px;
+ padding-left: 60px;
  float: left;
 }
