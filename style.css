@@ -77,3 +77,18 @@
     right:10px;
     padding-top: 1%;
 }
+
+.collage{
+
+    top: -130px;
+    float: right;
+    position: relative;
+}
+.japan_talk{
+ font-family: "mieszkanie9";
+ top: -65px;
+ font-size: 16px;
+ position: relative;
+ left: 45px;
+ float: left;
+}
