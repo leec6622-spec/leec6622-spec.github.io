@@ -90,7 +90,7 @@
  top: -700px;
  font-size: 25px;
  position: relative;
- justify-items: center;
+ text-align: center;
  margin-left: auto;
  margin-right: auto;
 }
